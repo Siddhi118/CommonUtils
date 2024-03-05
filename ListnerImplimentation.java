@@ -27,7 +27,7 @@ public class ListnerImplimentation implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		String methodname = result.getMethod().getMethodName();
 		Reporter.log(methodname+" TestScript Execution passed" , true);
-//		test
+
 	}
 
 	@Override
