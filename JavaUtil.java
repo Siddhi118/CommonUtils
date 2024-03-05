@@ -3,6 +3,7 @@ package CommonUtils;
 import java.util.Random;
 
 public class JavaUtil {
+//	jutil
 
 public int getRandomNumber() {
 	Random r = new Random();

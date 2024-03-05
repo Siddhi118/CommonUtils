@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertyFileUtil {
-
+//p
 	public String getDataFromPropertyFile(String keyname) throws IOException {
 		FileInputStream fis = new FileInputStream("src\\test\\resources\\LoginC.properties");
 		
